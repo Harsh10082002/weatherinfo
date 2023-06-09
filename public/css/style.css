@@ -52,11 +52,10 @@
 }
 
 .main {
-    background: url("../images/depositphotos_65707563-stock-illustration-bad-weather-background.jpg");
-    /* background: url("../images/srinivasan-venkataraman-9NmYCjfBGp0-unsplash.jpg"); */
+    background: url(../images/weather-background-with-clouds_23-2150374545.avif);
     background-size: cover;
     height: 100vh;
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -77,7 +76,7 @@
 
 #cityName {
     border: none;
-    border-bottom: 2px solid rgb(8, 35, 113);
+    border-bottom: 2px solid rgb(209, 212, 220);
     outline: none;
     background-color: transparent;
     width: 50%;
@@ -85,8 +84,7 @@
 }
 
 #cityName::placeholder {
-    color: rgba(0, 0, 0, 0.839);
-    text-align: center;
+    color: #191919;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* font-weight: 400;
     font-size: 1.2rem; */
@@ -258,7 +256,7 @@ hr {
     }
 
     #cityName::placeholder {
-        color: white;
+        color: #191919;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     }
@@ -335,4 +333,5 @@ hr {
     .div2 {
         border-radius: unset;
     }
+    
 }
